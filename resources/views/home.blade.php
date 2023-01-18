@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,15 +10,17 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        <link href="css/flexslider.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <title>4BIKE</title>
 </head>
 
 <body>
+    @include('nav.nav')
     <!-- ---Header Navbar-- -->
-    <div class="header_section header_bg">
+    {{-- <div class="header_section header_bg">
         <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFBF00; ">
             <a href="home.html" class="logo"></a><img src="image/4bike.png" style="width: 220px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,7 +37,7 @@
                         <a class="nav-link" href="" style="margin-left:150px ;"><b>Home</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="" style=""><b>Sepeda</b></a>
+                        <a class="nav-link" href="/sepeda" style=""><b>Sepeda</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="" style=""><b>Aksesoris</b></a>
@@ -47,7 +50,7 @@
                     </div>
                 </ul>
             </div>
-        </nav>
+        </nav> --}}
         <!-- ---Carousel--    -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -75,8 +78,11 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+
+        @include('nav.footer')
         <!-- Site footer -->
-        <footer class="site-footer">
+        {{-- <footer class="site-footer" id="footer">
             <div class="container" >
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
@@ -119,7 +125,7 @@
                 </div>
             </div>
         </div>
-        </footer>
+        </footer> --}}
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
