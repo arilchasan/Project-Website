@@ -15,51 +15,51 @@
     
 </head>
 <body>
-    <!-- Site footer -->
+<!-- Site footer -->
 <footer class="site-footer">
-    <div class="container" >
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <img src="image/4bike.png">
-                <p class="text-justify">4BIKE adalah website toko sepeda nasional yang mengutamakan kualitas tinggi dengan harga yang terjangkau  </p>
-            </div>
-        
-            <div class="col-xs-6 col-md-3">
-                <h6><a>Support</a></h6>
-                <h6><a>Garansi</a></h6>
-                <h6><a>Tentang Kami</a></h6>
+            <div class="container" >
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="image/4bike.png">
+                        <p class="text-justify">4BIKE adalah website toko sepeda nasional yang mengutamakan kualitas tinggi dengan harga yang terjangkau  </p>
+                    </div>
                 
+                    <div class="col-xs-6 col-md-3">
+                        <h6><a href="">Support</a></h6>
+                        <h6><a href="garansi">Garansi</a></h6>
+                        <h6><a href="">Tentang Kami</a></h6>
+                        
+                    </div>
+                    
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Follow Us</h6>
+                           <br>
+                           <div class="f_social_icon">
+                            <a href="#" class="fa fa-facebook" style="color: rgb(41, 41, 174)"></a>
+                            <a href="#" class="fa fa-instagram" style="color: rgb(193, 53, 132)"></a>
+                            <a href="#" class="fa fa-youtube" style="color: rgb(181, 24, 24)"></a>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-                <div class="col-xs-6 col-md-3">
-                    <h6>Follow Us</h6>
-                   <br>
-                   <div class="f_social_icon">
-                    <a href="#" class="fa fa-facebook" style="color: rgb(41, 41, 174)"></a>
-                    <a href="#" class="fa fa-instagram" style="color: rgb(193, 53, 132)"></a>
-                    <a href="#" class="fa fa-youtube" style="color: rgb(181, 24, 24)"></a>
+        </div>                
+                </div>
+            </div>
+            <div class="bwh">
+            <div class="container">
+                <div class="row" style="margin-left: 225px;">
+                    <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: center;">
+                        <p class="copyright-text" style="color: white">Copyright &copy; 2020 
+                            <a style="color: white">4bike.com</a>.
+                        </p>
+                    </div>
+
                     
                 </div>
             </div>
         </div>
-    </div>
-</div>                
-        </div>
-    </div>
-    <div class="bwh">
-    <div class="container">
-        <div class="row" style="margin-left: 225px;">
-            <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: center;">
-                <p class="copyright-text" style="color: white">Copyright &copy; 2020 
-                    <a style="color: white">4bike.com</a>.
-                </p>
-            </div>
-
-            
-        </div>
-    </div>
-</div>
-</footer>
+        </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

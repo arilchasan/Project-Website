@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/sepeda', function () {
     return view('sepeda');
 });
+Route::get('/garansi', function () {
+    return view('garansi');
+});
