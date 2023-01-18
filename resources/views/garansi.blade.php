@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +8,16 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/garansi.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/font.css') }}">
         <link href="css/flexslider.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-    <title>4BIKE</title>
+    <title>Garansi</title>
 </head>
-
 <body>
-    <!-- ---Header Navbar-- -->
-    <div class="header_section header_bg">
+        <!-- ---Header Navbar-- -->
+        <div class="header_section header_bg">
         <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFBF00; ">
             <a href="home.html" class="logo"></a><img src="image/4bike.png" style="width: 220px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -31,7 +31,7 @@
                         <button class="btn btn-outline-warning  my-sm-0" type="submit"><img class="search" src="image/search.png"></button>
                     </form>
                     <li class="nav-item active">
-                        <a class="nav-link" href="" style="margin-left:150px ;"><b>Home</b></a>
+                        <a class="nav-link" href="/" style="margin-left:150px ;"><b>Home</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="" style=""><b>Sepeda</b></a>
@@ -48,32 +48,30 @@
                 </ul>
             </div>
         </nav>
-        <!-- ---Carousel--    -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="image/C1.png" style="padding: 2%;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="image/C2.png" style="padding: 2%;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="image/C3.png" style="padding: 2%;">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <!--Isi-->
+        <div class="judul middle">
+            <h1>LAYANAN GARANSI</h1>
+        </div>
+        <div class="judul">
+            <h1>CAKUPAN GARANSI SEPEDA</h1>
+        </div>
+        
+        <div class="isi">
+            <h4>Garansi pada frame sepeda yang disebabkan oleh kesalahan proses pembuatan pabrik, dimana termasuk segala sambungannya. Tidak berfungsinya bagian-bagian dari sepeda yang disebabkan proses pembuatan di pabrik.</h4>
+        </div>
+        <div class="judul">
+            <h1>KONDISI DILUAR CAKUPAN GARANSI</h1>
+        </div>
+        <div class="isi second">
+            <ul>
+                <li><h4>Kerusakan yang disebabkan pemakaian termasuk pemakaian yang tidak wajar.</h4></li>
+                <li><h4>Kerusakan karena kecelakaan. korosi,dan sepeda yang tidak dirawat dengan semestinya.</h4></li>
+                <li><h4>Bagian-bagian yang mengalami keausan akibat dari pemakaian, seperti ban, karet rem serta kecemerlangan cat, dan sebagainya. Cacat pada cat permukaan seperti noda, baret, cat terkelupas dan kerusakan lainnya.</h4></li>
+                <li><h4>Sepeda yang sudah dimodifikasi atau sudah dipindahtangankan.</h4></li>
+                <li><h4>Sepeda yang dipakai untuk tujuan komersial.</h4></li>
+                <li><h4>Segala biaya pengiriman sepeda dan bagian sepeda yang akan diperbaiki.</h4></li>
+                <li><h4>Kartu garansi sudah kedaluwarsa.</h4></li>
+            </ul>
         </div>
         <!-- Site footer -->
         <footer class="site-footer">
@@ -130,5 +128,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
 </html>
