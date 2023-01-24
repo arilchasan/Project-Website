@@ -19,38 +19,7 @@
 
 <body>
     @include('nav.nav')
-    <!-- ---Header Navbar-- -->
-    {{-- <div class="header_section header_bg">
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFBF00; ">
-            <a href="home.html" class="logo"></a><img src="image/4bike.png" style="width: 220px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <form class="form-inline">
-                        <input class="form-control  " type="search" placeholder="Cari Sepeda" aria-label="Search">
-                        <button class="btn btn-outline-warning  my-sm-0" type="submit"><img class="search" src="image/search.png"></button>
-                    </form>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="" style="margin-left:150px ;"><b>Home</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/sepeda" style=""><b>Sepeda</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="" style=""><b>Aksesoris</b></a>
-                    </li>
-                    <div class="ava" >
-                        <div class="row">
-                            <li><a href="#"><img src="image/keranjang.png" style="width:40px;"></a></li>
-                            <li><a href="#"><img src="image/avatar.png" style="width:40px;margin-left:30px"></a></li>
-                        </div>                        
-                    </div>
-                </ul>
-            </div>
-        </nav> --}}
+    
         <!-- ---Carousel--    -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -81,51 +50,7 @@
 
 
         @include('nav.footer')
-        <!-- Site footer -->
-        {{-- <footer class="site-footer" id="footer">
-            <div class="container" >
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <img src="image/4bike.png">
-                        <p class="text-justify">4BIKE adalah website toko sepeda nasional yang mengutamakan kualitas tinggi dengan harga yang terjangkau  </p>
-                    </div>
-                
-                    <div class="col-xs-6 col-md-3">
-                        <h6><a>Support</a></h6>
-                        <h6><a>Garansi</a></h6>
-                        <h6><a>Tentang Kami</a></h6>
-                        
-                    </div>
-                    
-                        <div class="col-xs-6 col-md-3">
-                            <h6>Follow Us</h6>
-                           <br>
-                           <div class="f_social_icon">
-                            <a href="#" class="fa fa-facebook" style="color: rgb(41, 41, 174)"></a>
-                            <a href="#" class="fa fa-instagram" style="color: rgb(193, 53, 132)"></a>
-                            <a href="#" class="fa fa-youtube" style="color: rgb(181, 24, 24)"></a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>                
-                </div>
-            </div>
-            <div class="bwh">
-            <div class="container">
-                <div class="row" style="margin-left: 225px;">
-                    <div class="col-md-8 col-sm-6 col-xs-12" style="text-align: center;">
-                        <p class="copyright-text" style="color: white">Copyright &copy; 2020 
-                            <a style="color: white">4bike.com</a>.
-                        </p>
-                    </div>
-
-                    
-                </div>
-            </div>
-        </div>
-        </footer> --}}
+       
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
