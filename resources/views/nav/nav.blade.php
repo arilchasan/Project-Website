@@ -27,7 +27,7 @@
                         <input class="form-control  " type="search" placeholder="Cari Sepeda" aria-label="Search">
                         <button class="btn btn-outline-warning  my-sm-0" type="submit"><img class="search" src="image/search.png"></button>
                     </form>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="/" style="margin-left:150px ;"><b>Home</b></a>
                     </li>
                     <li class="nav-item">
