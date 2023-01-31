@@ -22,3 +22,7 @@ Route::get('/sepeda', function () {
 Route::get('/garansi', function () {
     return view('garansi');
 });
+
+Route::get('/about', function () {
+    return view('about.about');
+});
