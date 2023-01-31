@@ -27,9 +27,12 @@
                     </div>
                 
                     <div class="col-xs-6 col-md-3">
+                        <div class="col-xs-6 col-md-3">
                         <h6><a href="/"><b>4BIKE</b></a></h6>
                         <h6><a href="/garansi">Garansi</a></h6>
                         <h6><a href="">Tentang Kami</a></h6>
+                        
+                    </div>
                         
                     </div>
                     
