@@ -11,7 +11,9 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/76557bdb99.css" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -25,8 +27,8 @@
                     </div>
                 
                     <div class="col-xs-6 col-md-3">
-                        <h6><a href="">Support</a></h6>
-                        <h6><a href="garansi">Garansi</a></h6>
+                        <h6><a href="/"><b>4BIKE</b></a></h6>
+                        <h6><a href="/garansi">Garansi</a></h6>
                         <h6><a href="">Tentang Kami</a></h6>
                         
                     </div>
@@ -35,9 +37,9 @@
                             <h6>Follow Us</h6>
                            <br>
                            <div class="f_social_icon">
-                            <a href="#" class="fa fa-facebook" style="color: rgb(41, 41, 174)"></a>
-                            <a href="#" class="fa fa-instagram" style="color: rgb(193, 53, 132)"></a>
-                            <a href="#" class="fa fa-youtube" style="color: rgb(181, 24, 24)"></a>
+                            <a href="#" class="fab fa-facebook-f" ></a>
+                            <a href="#" class="fab fa-instagram" style="color: rgb(193, 53, 132)"></a>
+                            <a href="#" class="fab fa-youtube" style="color: rgb(181, 24, 24)"></a>
                             
                         </div>
                     </div>
@@ -70,4 +72,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/76557bdb99.js" crossorigin="anonymous"></script>
 </html>
