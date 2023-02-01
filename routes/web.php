@@ -26,3 +26,7 @@ Route::get('/garansi', function () {
 Route::get('/about', function () {
     return view('about.about');
 });
+
+Route::get('/profile', function () {
+    return view('profile');
+});
