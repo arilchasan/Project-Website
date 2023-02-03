@@ -25,23 +25,16 @@ justify-content: end;
 
  
 }
------------------------------------------------------------
-/* css Sepeda */
+a{
+  color: black;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
------------------------------------------------------------
+.text-end{
+  margin-left: 22cm;
+  margin-top: 10px;
+  
+}
 .f_social_icon a {
   size: 50px;
   
@@ -126,6 +119,17 @@ justify-content: end;
 {
   color:#737373
 }
+/* Best Seller style */
+.card-text{
+  color: red;
+  font-size: 20px;
+}
+.card-text1{
+  
+  font-size: 17px;
+}
 
-
-
+.cardd{
+  border: 1px black solid;
+  box-shadow: 5px 5px  gray;
+}
