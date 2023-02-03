@@ -15,6 +15,7 @@
     <title>4BIKE</title>
 </head>
 <body>
+
      @include('nav.nav');
      {{-- Best Seller --}}
      <section class="pt-10 pb-10">
@@ -284,122 +285,10 @@
     <!--</div>-->
 </div>
   </div>  
-          
-  
-    {{-- ///Produk --}}
-    {{-- <div class="row">
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-     <div class="card" style="width: 18rem;">
-        <img src="image/dahon.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dahon Ion</h5>
-          <hr>
-          <a class="card-text" ><s>Rp 4.650.000</s></a>
-          <p class="card-text" style="color:red">Rp 2.999.000</p>
-        </div>
-      </div>
-    </div> --}}
+         
+    
         
-       @include('nav.footer')
+      @include('nav.footer')
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
