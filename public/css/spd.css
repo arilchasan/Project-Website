@@ -22,7 +22,22 @@ margin-bottom: 20px;
   margin-bottom: auto;
 }
 
-
+/* 
 .row {
   padding: 10px;
+} */
+
+.card-text{
+  color: red;
+  font-size: 20px;
 }
+.card-text1{
+  
+  font-size: 17px;
+}
+
+.cardd{
+  border: 1px black solid;
+  box-shadow: 5px 5px  gray;
+}
+
