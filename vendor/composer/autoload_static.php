@@ -4,11 +4,7 @@
 
 namespace Composer\Autoload;
 
-
-class ComposerStaticInit6596910d436766497281b23a15706d84
-
-class ComposerStaticInit1105262144b251c25cb17a415d325a7a
-
+class ComposerStaticInitd9dd3be987075506d7223d1d4c497d4c
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -340,8 +336,8 @@ class ComposerStaticInit1105262144b251c25cb17a415d325a7a
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -526,6 +522,7 @@ class ComposerStaticInit1105262144b251c25cb17a415d325a7a
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Sepeda' => __DIR__ . '/../..' . '/app/Models/Sepeda.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
@@ -5742,17 +5739,10 @@ class ComposerStaticInit1105262144b251c25cb17a415d325a7a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6596910d436766497281b23a15706d84::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6596910d436766497281b23a15706d84::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6596910d436766497281b23a15706d84::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6596910d436766497281b23a15706d84::$classMap;
-
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1105262144b251c25cb17a415d325a7a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1105262144b251c25cb17a415d325a7a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit1105262144b251c25cb17a415d325a7a::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit1105262144b251c25cb17a415d325a7a::$classMap;
-
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd9dd3be987075506d7223d1d4c497d4c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd9dd3be987075506d7223d1d4c497d4c::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitd9dd3be987075506d7223d1d4c497d4c::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitd9dd3be987075506d7223d1d4c497d4c::$classMap;
 
         }, null, ClassLoader::class);
     }

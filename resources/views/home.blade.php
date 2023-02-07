@@ -48,58 +48,159 @@
             </a>
         </div>
         {{-- Best Seller --}}
+        <section class="pt-10 pb-10">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <h3 class="mb">Best Seller</h3>
+                        
+                        <a class="text-end" href="/sepeda" role="button">Lihat Semua Produk</a>
+                        <hr width="1200px">
+                    </div>
+                    
+                    
+                    <div class="col-20">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+        
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+        
+                                        <div class="col-md-4 mb-3">
+                                            <div class="cardd">
+                                                <img class="img-fluid"  src="image/aquila.jpg">
+                                                <hr style="width: 9cm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">AQUILA 2.0</h4>
+                                                    <p class="card-text" >Rp 6.400.000</p>
+                                                  <br>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="cardd">
+                                                <img class="img-fluid"  src="image/dahon.jpeg">
+                                                <hr style="width: 9cm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Dahon Ion Madion 20"</h4>
+                                                    <a class="card-text1"  ><s>Rp 4.650.000</s></a>
+                                                    
+                                                   <p class="card-text" style="margin-top: 14px">Rp 2.999.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="cardd" style="margin-right: 3px">
+                                                <img class="img-fluid"  
+                                                src="image/scappa.jpg">
+                                                <hr style="width: 9cm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Genio Scappa 700C"</h4>
+                                                    <p class="card-text">Rp 2.950.000</p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+        
+                                        
+                                        <div class="col-md-4 mb-3">
+                                            <div class="cardd">
+                                                <img class="img-fluid" 
+                                                src="image/curved.jpg">
+                                                <hr style="width: 9cm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Element Curved 700C"</h4>
+                                                    <p class="card-text">Rp 6.525.000</p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="cardd">
+                                                <img class="img-fluid" 
+                                                src="image/thunder.jpg">
+                                                <hr style="width: 9cm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Twitter Thunder Brake 700C"</h4>
+                                                    <p class="card-text">Rp 21.500.000</p>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="cardd" style="margin-right: 3px">
+                                                <img class="img-fluid" 
+                                                src="image/london.jpg">
+                                                <hr style="width: 9cm">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">London Taxi CRB M 700C</h4>
+                                                    <a class="card-text1"  ><s>Rp 6.280.000</s></a>
+                                                    
+                                                   <p class="card-text" style="margin-top: 15px">Rp 5.024.000</p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 text-right">
+              <a class="btn btn-warning mb-3 mr-1" style="border-radius: 50%" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-warning mb-3 " style="border-radius: 50%" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+              </a>
+          </div>
+        </section>
+
+          {{-- Semua Merk --}}
+  
      <section class="pt-10 pb-10">
         <div class="container">
             <div class="row">
                 <div class="row">
-                    <h3 class="mb">Best Seller</h3>
-                    
-                    <a class="text-end" href="/sepeda" role="button">Lihat Semua Produk</a>
+                    <h3 class="mb">Semua Merk</h3>
                     <hr width="1200px">
                 </div>
                 
                 
                 <div class="col-20">
-                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
     
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
     
                                     <div class="col-md-4 mb-3">
-                                        <div class="cardd">
-                                            <img class="img-fluid"  src="image/aquila.jpg">
-                                            <hr style="width: 9cm">
-                                            <div class="card-body">
-                                                <h4 class="card-title">AQUILA 2.0</h4>
-                                                <p class="card-text" >Rp 6.400.000</p>
-                                              <br>
-                                            </div>
-    
+                                        <div class="cardd2">
+                                            <img class="img-fluid"  src="image/logoPolygon.png">
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="cardd">
-                                            <img class="img-fluid"  src="image/dahon.jpeg">
-                                            <hr style="width: 9cm">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Dahon Ion Madion 20"</h4>
-                                                <a class="card-text1"  ><s>Rp 4.650.000</s></a>
-                                                
-                                               <p class="card-text" style="margin-top: 14px">Rp 2.999.000</p>
-                                            </div>
+                                        <div class="cardd2">
+                                            <img class="img-fluid"  src="image/logodahon.jpg">
+                                            
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="cardd" style="margin-right: 3px">
+                                        <div class="cardd2" style="margin-right: 3px">
                                             <img class="img-fluid"  
-                                            src="image/scappa.jpg">
-                                            <hr style="width: 9cm">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Genio Scappa 700C"</h4>
-                                                <p class="card-text">Rp 2.950.000</p>
-                                                <br>
-                                            </div>
+                                            src="image/logoPacific.jpg">
+                                           
                                         </div>
                                     </div>
     
@@ -110,41 +211,24 @@
     
                                     
                                     <div class="col-md-4 mb-3">
-                                        <div class="cardd">
+                                        <div class="cardd3">
                                             <img class="img-fluid" 
-                                            src="image/curved.jpg">
-                                            <hr style="width: 9cm">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Element Curved 700C"</h4>
-                                                <p class="card-text">Rp 6.525.000</p>
-                                                <br>
-                                            </div>
+                                            src="image/united.jpg">
+                                           
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="cardd">
+                                        <div class="cardd3">
                                             <img class="img-fluid" 
-                                            src="image/thunder.jpg">
-                                            <hr style="width: 9cm">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Twitter Thunder Brake 700C"</h4>
-                                                <p class="card-text">Rp 21.500.000</p>
-                                                <br>
-                                            </div>
+                                            src="image/thrill.jpg">
+                                          
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="cardd" style="margin-right: 3px">
+                                        <div class="cardd3" style="margin-right: 3px">
                                             <img class="img-fluid" 
-                                            src="image/london.jpg">
-                                            <hr style="width: 9cm">
-                                            <div class="card-body">
-                                                <h4 class="card-title">London Taxi CRB M 700C</h4>
-                                                <a class="card-text1"  ><s>Rp 6.280.000</s></a>
-                                                
-                                               <p class="card-text" style="margin-top: 15px">Rp 5.024.000</p>
-                                                
-                                            </div>
+                                            src="image/Shimano.jpg">
+                                           
                                         </div>
                                     </div>
                                    
@@ -157,15 +241,17 @@
                 </div>
             </div>
         </div>
-        <div class="col-10 text-right">
-          <a class="btn btn-warning mb-3 mr-1" style="border-radius: 50%" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+        
+        <div class="col-12 text-center">
+          <a class="btn btn-warning mb-3 mr-1" style="border-radius: 80%" href="#carouselExampleIndicators3" role="button" data-slide="prev">
               <i class="fa fa-arrow-left"></i>
           </a>
-          <a class="btn btn-warning mb-3 " style="border-radius: 50%" href="#carouselExampleIndicators2" role="button" data-slide="next">
+          <a class="btn btn-warning mb-3 " style="border-radius: 80%" href="#carouselExampleIndicators3" role="button" data-slide="next">
               <i class="fa fa-arrow-right"></i>
           </a>
       </div>
     </section>
+   
 
         
 

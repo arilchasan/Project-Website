@@ -25,6 +25,18 @@ justify-content: end;
 
  
 }
+
+.cardd3 {
+  height: 360px;
+  object-fit: cover; 
+  border: 1px grey solid;
+}
+
+.cardd2 {
+  height: 214px;
+  border: 1px grey solid;  
+}
+
 a{
   color: black;
 
