@@ -167,6 +167,90 @@
           </div>
         </section>
 
+          {{-- Semua Merk --}}
+  
+     <section class="pt-10 pb-10">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <h3 class="mb">Semua Merk</h3>
+                    <hr width="1200px">
+                </div>
+                
+                
+                <div class="col-20">
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="cardd2">
+                                            <img class="img-fluid"  src="image/logoPolygon.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="cardd2">
+                                            <img class="img-fluid"  src="image/logodahon.jpg">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="cardd2" style="margin-right: 3px">
+                                            <img class="img-fluid"  
+                                            src="image/logoPacific.jpg">
+                                           
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+    
+                                    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="cardd3">
+                                            <img class="img-fluid" 
+                                            src="image/united.jpg">
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="cardd3">
+                                            <img class="img-fluid" 
+                                            src="image/thrill.jpg">
+                                          
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="cardd3" style="margin-right: 3px">
+                                            <img class="img-fluid" 
+                                            src="image/Shimano.jpg">
+                                           
+                                        </div>
+                                    </div>
+                                   
+    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-12 text-center">
+          <a class="btn btn-warning mb-3 mr-1" style="border-radius: 80%" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn btn-warning mb-3 " style="border-radius: 80%" href="#carouselExampleIndicators3" role="button" data-slide="next">
+              <i class="fa fa-arrow-right"></i>
+          </a>
+      </div>
+    </section>
    
 
         
