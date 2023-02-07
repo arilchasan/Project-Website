@@ -15,6 +15,7 @@
     <title>4BIKE</title>
 </head>
 <body>
+
      @include('nav.nav');
      {{-- Best Seller --}}
      <section class="pt-10 pb-10">

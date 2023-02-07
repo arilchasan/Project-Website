@@ -39,14 +39,13 @@
                     <div class="ava" >
                         <div class="row">
                             <li><a href="#"><img src="image/keranjang.png" style="width:40px;"></a></li>
-                            <li><a href="#"><img src="image/avatar.png" style="width:40px;margin-left:30px"></a></li>
+                            <li><a href="/profile"><img src="image/avatar.png" style="width:40px;margin-left:30px"></a></li>
                         </div>                        
                     </div>
                 </ul>
             </div>
         </nav>
-    </header>
-         
+    </header>      
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
