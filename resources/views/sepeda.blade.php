@@ -274,6 +274,12 @@
             </div>
             <!--</div>-->
         </div>
+
+    <!--</div>-->
+</div>
+  </div>  
+           
+
         <div class="col-sm-6 col-md-4">
             <div class="card border-black">
                 <img src="image/dahon.jpeg" class="card-img-top" alt="...">
@@ -293,6 +299,7 @@
 
 
     @include('nav.footer')
+
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
