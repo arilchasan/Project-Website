@@ -22,6 +22,9 @@ Route::get('/sepeda',[SepedaController::class, 'index']);
 Route::get('/garansi', function () {
     return view('garansi');
 });
+Route::get('/aksesoris', function () {
+    return view('garansi');
+});
 
 Route::get('/about', function () {
     return view('about.about');
@@ -29,7 +32,6 @@ Route::get('/about', function () {
 
 Route::get('/profile', function () {
     return view('profile');
-});
+});     
 Route::get('/detail', function () {
-    return view('sepeda.detail');
-});
+    return view('sepeda.detail');});
