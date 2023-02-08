@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GlobalController;
 use App\Http\Controllers\SepedaController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,16 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [GlobalController::class, 'index']);
 Route::get('/sepeda',[SepedaController::class, 'index']); 
 
 Route::get('/garansi', function () {
     return view('garansi');
 });
 Route::get('/aksesoris', function () {
-    return view('garansi');
+    return view('aksesoris');
 });
 
 Route::get('/about', function () {
