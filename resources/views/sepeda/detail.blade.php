@@ -15,19 +15,18 @@
 <body>
     @include('nav.nav')
 
-
     {{-- Detail Produk --}}
     <section>
-    <div class="container-fluid px-0 overflow-hidden">
-        <div class="row">
-            <div class="col-sm-8">    
-                <div class="gambar">           
-                <img class="img-fluid" src="image/aquila.jpg" style="border: 1px black solid">
+        <div class="container-fluid px-0 overflow-hidden">
+            <div class="row">
+                <div class="col-sm-8">    
+                    <div class="gambar">           
+                        <img class="img-fluid" src="image/aquila.jpg" style="border: 1px black solid">
+                    </div>
                 </div>
-        </div>
-    </div>
+            </div>
+            
     </section>
-
 
     {{-- @include('nav.footer') --}}
 </body>
