@@ -14,11 +14,12 @@ return new class extends Migration
     public function up()
     {
         Schema::create('sepedas', function (Blueprint $table) {
-            $table->id();
+            $table->id()->unique();
             $table->string('image')->nullable();            
             $table->string('merk');
             $table->string('harga');
-            $table->timestamps();
+            $table->string('desc', 1000);          
+            // $table->timestamps();
         });
     }
 

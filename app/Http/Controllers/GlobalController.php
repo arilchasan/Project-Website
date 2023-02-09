@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Sepeda;
 use Illuminate\Http\Request;
 
 class GlobalController extends Controller
@@ -10,4 +11,9 @@ class GlobalController extends Controller
     {
         return view('home');
     }
+
+    public function detail(){
+        $sepeda = Sepeda::all();
+        return view('sepeda.detail',['data'=>$sepeda]);
+        }
 }

@@ -32,5 +32,4 @@ Route::get('/about', function () {
 Route::get('/profile', function () {
     return view('profile');
 });     
-Route::get('/detail', function () {
-    return view('sepeda.detail');});
+Route::get('/detail', [GlobalController::class, 'detail']);
