@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
+        //insert data ke table sepedas
         DB::table('sepedas')->insert(array(
             array(
                 'image' => 'image/aquila.jpg',
@@ -99,5 +100,50 @@ class DatabaseSeeder extends Seeder
             ),
             
             
-        );}
+        );
+
+
+        //insert data ke table aksesoris
+        DB::table('aksesoris')->insert(array(
+          array(
+                'image' => 'image/aks/blackburn.jpg',
+                'nama' => 'Blackburn Grid Medium Seat Bag',
+                'harga' => 'Rp 315.000',
+                'desc' => 'Tas ini semuanya memiliki saku internal kecil untuk membantu Anda tetap teratur, dan bagian dalam belakang memiliki warna yang lebih terang untuk memudahkan menemukan alat di dalamnya dengan cepat.'
+                ),
+          array(
+                'image' => 'image/aks/btlmnm.jpg',
+                'nama' => 'Elite Tempat Botol Minum Sepeda Cannibal XC Skin',
+                'harga' => 'Rp 228.000',
+                'desc' => 'Desain tempat botol minum yang inovatif memungkinkan pesepeda untuk mengambil botol dari samping maupun depan. Terbuat dari material polimer yang diperkuat dengan serat agar bottle cage tahan lama. Yang menarik, desain Elite Bottle Cage Sepeda Cannibal XC Skin ini yang tampak lebih modern dan elegan. Elite Bottle Cage Sepeda Cannibal XC Skin juga dilengkapi dengan bahan karet elastomer yang dapat menjaga botol agar tidak mudah lepas atau terjatuh dari tempatnya.'
+                ),
+          array(
+                'image' => 'image/aks/cateye.jpg',
+                'nama' => 'Cateye Lampu Depan Sepeda Volt6000 EL6000RC',
+                'harga' => 'Rp 5.998.000',
+                'desc' => 'Kelas lampu depan paling bertenaga di dunia adalah sesuatu yang harus Anda alami untuk dipercaya.
+                6000 lumens mengubah gelap menjadi siang hari untuk pengalaman berkendara malam yang tak tertandingi. Satu lagi dalam rangkaian panjang pertama CatEye, dari lampu berkedip pertama pada tahun 1964 hingga lampu depan LED pertama pada tahun 2001 hingga lampu depan paling terang di dunia pada tahun 2015, kami terus mendorong batasan elektronik sepeda. '
+                ),
+          array(
+                'image' => 'image/aks/knjgspd.jpg',
+                'nama' => 'DEEMOUNT Keranjang Sepeda Strorage',
+                'harga' => 'Rp 85.000',
+                'desc' => 'Keranjang ini dapat membantu Anda membawa barang, khususnya jika Anda sering beraktivitas dengan sepeda. Memiliki kapasitas besar dan material berkualitas, keranjang ini bisa jadi solusi penyimpanan barang saat perjalanan. Keranjang barang ini cocok untuk Anda yang memiliki mobilitas tinggi menggunakan sepeda.'
+                ),
+          array(
+                'image' => 'image/aks/MT15.jpg',
+                'nama' => 'Entity Bicycle MT15 12 Functions Multitool',
+                'harga' => 'Rp 160.000',
+                'desc' => 'Multi-alat harus dimiliki oleh setiap pengendara sepeda, terlepas dari berapa lama Anda berencana untuk bersepeda. Entity MT15 Multi-Tool dengan 12 Fungsi menampilkan semua kunci hex standar, pemutus rantai, tuas ban, T25, obeng Phillips, dan obeng flathead.
+                '
+                ),
+          array(
+                'image' => 'image/aks/topenk.jpg',
+                'nama' => 'Topeak Stand Sepeda Prepstand Elite',
+                'harga' => 'Rp 3.798.000',
+                'desc' => 'Topeak Presptand Elite merupakan professional workstand dengan tempat komponen yang dapat dibuka tutup. Kaki tripod yang stabil dan dapat dilipat sehingga praktis dibawa bepergian serta ringkas disimpan saat tidak digunakan. Dilengkapi clamp lever tambahan untuk mengencangkan / melepaskan clamp dengan mudah. Kepala clamp dapat berputar 360˚ dan memiliki non-marring rubber jaws. Termasuk tas jinjing untuk penyimpanan dan bepergian.'
+                ),
+                
+        ));
+}
 }
