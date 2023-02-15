@@ -38,7 +38,7 @@
                     </li>
                     <div class="ava" >
                         <div class="row">
-                            <li><a href="#"><img src="image/keranjang.png" style="width:40px;"></a></li>
+                            <li><a href="/keranjang"><img src="image/keranjang.png" style="width:40px;"></a></li>
                             <li><a href="/profile"><img src="image/avatar.png" style="width:40px;margin-left:30px"></a></li>
                         </div>                        
                     </div>

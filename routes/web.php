@@ -32,3 +32,4 @@ Route::get('/profile', function () {
     return view('profile');
 });     
 Route::get('/detail', [GlobalController::class, 'detail']);
+Route::get('/keranjang', [GlobalController::class, 'keranjang']);
