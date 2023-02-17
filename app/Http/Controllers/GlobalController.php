@@ -16,4 +16,13 @@ class GlobalController extends Controller
         $sepeda = Sepeda::all();
         return view('sepeda.detail',['data'=>$sepeda]);
         }
+
+
+    public function keranjang(){
+    return view('keranjang.keranjang');
+    }
+
+    public function profile(){
+        return view('profile');
+    }
 }
