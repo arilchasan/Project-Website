@@ -17,7 +17,12 @@ class GlobalController extends Controller
         return view('sepeda.detail',['data'=>$sepeda]);
         }
 
+
     public function keranjang(){
-    return view('keranjang.kerajang');
+    return view('keranjang.keranjang');
+    }
+
+    public function profile(){
+        return view('profile');
     }
 }
