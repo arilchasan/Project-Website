@@ -19,7 +19,7 @@ class Login extends Controller
             'name' => 'required',
             'password' => 'required',
         ]);
-
+        
         if(!Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
