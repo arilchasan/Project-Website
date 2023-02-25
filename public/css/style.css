@@ -18,30 +18,35 @@
   border-bottom-left-radius:30px ;
 }
 .ava .row {
-width: 520px;
-display: flex;
-flex-direction:row;
+/* width: 520px; */
+/* display: flex;
+flex-direction:row; */
 justify-content: end;
 
  
 }
------------------------------------------------------------
-/* css Sepeda */
 
+.cardd3 {
+  height: 360px;
+  object-fit: cover; 
+  border: 1px grey solid;
+}
 
+.cardd2 {
+  height: 214px;
+  border: 1px grey solid;  
+}
 
+a{
+  color: black;
 
+}
 
-
-
-
-
-
-
-
-
-
------------------------------------------------------------
+.text-end{
+  margin-left: 22cm;
+  margin-top: 10px;
+  
+}
 .f_social_icon a {
   size: 50px;
   
@@ -84,8 +89,9 @@ justify-content: end;
 }
 .site-footer
 {
+  margin-top: 30px;
   background-color:#222831;
-  padding:45px 0 20px;
+  padding:45px 0 0;
   font-size:15px;
   line-height:24px;
   color:#737373;
@@ -126,6 +132,28 @@ justify-content: end;
 {
   color:#737373
 }
+/* Best Seller style */
+.card-text{
+  color: red;
+  font-size: 20px;
+}
+.card-text1{
+  
+  font-size: 17px;
+}
 
+.cardd{
+  border: 1px black solid;
+  box-shadow: 5px 5px  gray;
+}
 
+.fa.fa-shopping-cart:hover{
+  color: red;
 
+}
+.ms-auto{
+  margin-left: auto;
+  margin-right: 50px;
+  justify-content: end;
+  
+}

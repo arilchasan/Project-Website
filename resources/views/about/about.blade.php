@@ -68,9 +68,7 @@
         <p class="text3">1. Mendukung industri nasional.<br>
             2. Menambah lapangan kerja dan meningkatkan keterampilan tenaga kerja.<br>
             3. Menciptakan dan meningkatkan produksi
-             sepeda yang berkualitas, berdaya saing tinggi
-            baik dari segi harga dan model di pasar dalam 
-            dan luar negeri.</p>
+             sepeda yang berkualitas.</p>
     
       </div>
     </div>
@@ -82,6 +80,7 @@
 
         
 </body>
+@include('nav.footer')
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

@@ -22,7 +22,7 @@
             <div class="container" >
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <img src="image/4bike.png">
+                        <img src="image/4bike.png" style="width: 200px; height:100px">
                         <p class="text-justify">4BIKE adalah website toko sepeda nasional yang mengutamakan kualitas tinggi dengan harga yang terjangkau  </p>
                     </div>
                 
