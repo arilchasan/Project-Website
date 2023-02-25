@@ -15,9 +15,8 @@
     <title>4BIKE</title>
 </head>
 <body>
-    @include('nav.nav');     
+    @include('nav.nav')     
     
-  git 
     {{-- ///Produk --}}
     <div class="row">
     <div class="card" style="width: 18rem;">

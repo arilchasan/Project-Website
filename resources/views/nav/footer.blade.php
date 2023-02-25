@@ -18,7 +18,7 @@
 </head>
 <body>
 <!-- Site footer -->
-<footer class="site-footer">
+<footer class="site-footer" style="margin-top: 15%;>
             <div class="container" >
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
@@ -30,7 +30,7 @@
                         <div class="col-xs-6 col-md-3">
                         <h6><a href="/"><b>4BIKE</b></a></h6>
                         <h6><a href="/garansi">Garansi</a></h6>
-                        <h6><a href="">Tentang Kami</a></h6>
+                        <h6><a href="/about">Tentang Kami</a></h6>
                         
                     </div>
                         
@@ -38,8 +38,8 @@
                     
                         <div class="col-xs-6 col-md-3">
                             <h6>Follow Us</h6>
-                           <br>
-                           <div class="f_social_icon">
+                        <br>
+                        <div class="f_social_icon">
                             <a href="#" class="fab fa-facebook-f" ></a>
                             <a href="#" class="fab fa-instagram" style="color: rgb(193, 53, 132)"></a>
                             <a href="#" class="fab fa-youtube" style="color: rgb(181, 24, 24)"></a>
