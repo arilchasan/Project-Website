@@ -16,8 +16,9 @@
 <header>
     <!-- ---Header Navbar-- -->
     <div class="header_section header_bg">
+        
         <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFBF00; ">
-            <a href="home.html" class="logo"></a><img src="image/4bike.png" style="width: 220px"></a>
+            <a href="home.html" class="logo"></a><img src="image/4bike2.png" style="width: 225px;margin-right:20px;height:80px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,23 +38,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/aksesoris" style=""><b>Aksesoris</b></a>
                     </li>
-                    {{-- <li class="nav-item">
-                        <form action="/logout" method="POST">
-                            @csrf
-                            <button  type="submit" class="dropdown-item">Logout</button>
-                        </form>
-                    </li> --}}
-                    {{-- <div class="nav-item ms-auto"> --}}
-                    {{-- <div class="ava" >
-                        <div class="row"> --}}
-                            {{-- <div class="ttt"> --}}
-                               
-                                
                             </div> 
 
-
-
-                            {{-- <div class="col-sm-5"> --}}
                                 <ul class="navbar-nav ms-auto">
                                     @auth
                                     

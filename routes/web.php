@@ -41,6 +41,8 @@ Route::group(["prefix" => "/register"], function () {
     // Route::get('/all' ,[Register::class,'index'])->middleware('guest');
     Route::get('/create', [Register::class, 'create']);
     Route::post('/add', [Register::class, 'store']);
+    Route::get('/edit/{user}', [Register::class, 'edit']);
+    Route::post('/update/{user}', [Register::class, 'update']);    
 });
 
 Route::get('/register' ,[Register::class,'index'])->middleware('guest');
@@ -50,3 +52,4 @@ Route::get('/login', [Login::class, 'index'])->name('login')->middleware('guest'
 Route::post('/login/au', [Login::class,'authent']);
 
 Route::post('/logout', [Login::class, 'logout']);
+

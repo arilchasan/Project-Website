@@ -69,10 +69,21 @@
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" value="{{old('password')}}">
                     <label for="floatingPassword" valu>Password</label>
                   </div>
-    
+                  
+                    
+                  
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="" placeholder="alamat" name="alamat" value="{{old('alamat')}}">
+                    <label for="" >Alamat</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="" placeholder="no_telp" name="no_telp" value="{{old('no_telp')}}">
+                    <label for="" >No. Hp</label>
+                  </div>
+                  
                   <div class="d-grid">
-                    <button class="btn btn-warning btn-login text-uppercase fw-bold" style="margin-bottom: 20px" type="submit">Sign
-                      in</button>
+                    <button class="btn btn-warning btn-login text-uppercase fw-bold" style="margin-bottom: 20px" type="submit">Daftar
+                      </button>
                   </div>
                   <p>Sudah Memiliki Akun? <a class="reg" href="/login" > Login</a> </p>
                 </form>
