@@ -1,14 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +14,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <title>4BIKE</title>
 </head>
-@include("nav.nav")
 <body>  
-    <div class="container">
+  {{-- @include("nav.nav") --}}
+    <div class="container" style="margin-top: 60px">
         <div class="row">
           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <div class="card border-0 shadow rounded-3 my-5">
+            <div class="card border-0 rounded-3 my-5 shadow-lg bg-light">
               <div class="card-body p-4 p-sm-5">
                 <h5 class="card-title text-center mb-5  fs-5">Edit Informasi</h5>
                 <form action="/register/update/ {{$user->id}}" method="post">
@@ -66,7 +64,7 @@
         </div>
       </div>
     
-      @include('nav.footer')
+      {{-- @include('nav.footer') --}}
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -77,4 +75,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
+
+

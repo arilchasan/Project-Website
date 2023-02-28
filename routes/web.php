@@ -47,6 +47,7 @@ Route::group(["prefix" => "/register"], function () {
 
 Route::get('/register' ,[Register::class,'index'])->middleware('guest');
 
+
 //login route
 Route::get('/login', [Login::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login/au', [Login::class,'authent']);
