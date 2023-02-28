@@ -12,14 +12,6 @@
     width: 500px;
     position: center;
 }
-
-div.border border-dark p-2 mb-2 {
-    border-radius: 100px;
-}
-
-.button {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
+.card-text {
+    color: black;
 }

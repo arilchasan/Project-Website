@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Sepeda;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class GlobalController extends Controller
@@ -23,6 +24,6 @@ class GlobalController extends Controller
     }
 
     public function profile(){
-        return view('profile');
+        return view('profile',['data_user' => User::all()]);
     }
 }
