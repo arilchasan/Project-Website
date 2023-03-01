@@ -23,8 +23,10 @@ class SepedaController extends Controller
     //     }
 
     public function index(){
-        $sepeda = Sepeda::all();
-        return view('sepeda',['data'=>$sepeda]);
+    
+        return view('sepeda',[
+            'data' => Sepeda::filter(request(['search']))->paginate(12)->withQueryString(),
+    ]);
         }
 
 }

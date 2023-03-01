@@ -23,20 +23,20 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <form class="form-inline">
-                <input class="form-control  " type="search" placeholder="Cari Sepeda" aria-label="Search">
-                <button class="btn btn-outline-warning  my-sm-0" type="submit"><img class="search" src="image/search.png"></button>
-            </form> 
-            <div class="navbar-collapse justify-content-start" id="navbarSupportedContent">
+            {{-- <form class="form-inline" action="/sepeda" method="get">
+                <input class="form-control  " type="text" placeholder="Cari Sepeda" aria-label="Search"  value="{{ request('search') }}">
+                <button class="btn btn-outline-warning  my-sm-0" type="submit" value="{{ request('search') }}"><img class="search" src="image/search.png"></button>
+            </form>  --}}
+            <div class="navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/" style="margin-left:150px ;"><b>Home</b></a>
+                        <a class="nav-link" href="/" ><b>Home</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/sepeda" style=""><b>Sepeda</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/aksesoris" style=""><b>Aksesoris</b></a>
+                        <a class="nav-link" href="/aksesoris" style="margin-right:170px"><b>Aksesoris</b></a>
                     </li>
                             </div> 
 

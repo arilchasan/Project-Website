@@ -20,7 +20,8 @@ class GlobalController extends Controller
 
 
     public function keranjang(){
-    return view('keranjang.keranjang');
+    $sepeda = Sepeda::where('id',2)->get();
+    return view('keranjang.keranjang',['data'=>$sepeda]);
     }
 
     public function profile(){

@@ -22,6 +22,8 @@
     {{-- Best Seller --}}
     <section class="pt-10 pb-10">
         <div class="container">
+        
+            <br>
             <div class="row">
                 <div class="col-6">
                     <h3 class="mb-3">Best Seller</h3>
@@ -134,14 +136,30 @@
             </a>
         </div>
     </section>
-    
+    <br>
+    <div class="container-fluid px-0 overflow-hidden">
     {{-- Semua Produk --}}
-      
-                    <h3 class="col-sm-8" style="margin-left: 4% ">Semua Produk</h3>
+      <div class="row" style="justify-content: center">
+        <div class="col-md-5">
+            <h3 class="col-sm-8" style="margin-left: 4% ">Semua Produk</h3>
+        </div>
+        <div class="col-md-5">
+            <form action="/sepeda" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...." name="search"
+                        value="{{ request('search') }}">
+            
+                   <button class="btn btn-dark" type="submit" style="margin-left: 2px"
+                            id="button-addon2">Search</button>
+                </div>
+            </form>
+
+        </div>
+      </div>
+                    
                     <hr width="1400px" style="margin-left: 5%"> 
-                
-   
-<div class="container-fluid px-0 overflow-hidden">
+                    
+
     <div class="row">
  
         <?php foreach($data as $sepeda) { ?>
